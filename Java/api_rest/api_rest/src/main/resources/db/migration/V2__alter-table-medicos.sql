@@ -1,0 +1,1 @@
+alter table medicos add telefone char(12) not null;

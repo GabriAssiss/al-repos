@@ -1,0 +1,67 @@
+:root{
+ --tipo-letra-titulo: "Krona One";
+ --tipo-letra-texto: "Montserrat";
+ --cor-enfase: #22D4FD;
+ --cor-primaria:#fff;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 60em;
+    background-color: black;
+}
+.title{
+    font-family: var(--tipo-letra-titulo);
+    color: var(--cor-primaria);
+    font-size: 36px;
+    line-height: 56px;
+    width: 90%;
+}
+.enfase{
+    color: var(--cor-enfase);
+}
+.text{
+    font-family: var(--tipo-letra-texto);
+    color: var(--cor-primaria);
+    font-size: 24px;
+    line-height: 36px;
+    width: 88%;
+}
+section{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.container_botao{
+   display: flex;
+   padding-top: 1em;
+   gap: 4em;
+}
+.botao__primario{
+    font-family: var(--tipo-letra-texto);
+    text-decoration-line: none;
+    background-color: var(--cor-enfase);
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    color: black;
+   
+}
+
+.insta{
+    padding: 16px 3.75em;
+}
+.git{
+    padding: 16px 4.25em;
+}
+.main_box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4em;
+}
+
+.boxB{
+    padding-right: 4em;
+}
